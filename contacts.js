@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 // Ruta al archivo contacts.json
-const contactsPath = path.join(__dirname, "contacts.json");
+const contactsPath = path.join(__dirname, "db", "contacts.json");
 
 // Listar todos los contactos
 function listContacts(callback) {
